@@ -24,11 +24,3 @@ for counter in range(1, 10):
 
 
 
-#	print "%d" %(counter)
-
-# if eval == 0:
-#	print eval
-
-
-
-
