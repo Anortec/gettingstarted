@@ -6,13 +6,20 @@
 #	print theNumber
 #  end if
 
-
+finaloutput = 0
 evalfiz = 0
 
-for counter in range(0, 10):
-	evalfiz = counter
+for counter in range(1, 10):
 
-print evalfiz
+
+	evalfiz = counter
+	if evalfiz == 3:
+		finaloutput = "fizz"
+	
+	else:
+		finaloutput = counter
+
+	print finaloutput
 
 
 
