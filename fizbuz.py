@@ -7,6 +7,21 @@
 #  end if
 
 
+evalfiz = 0
+
+for counter in range(0, 10):
+	evalfiz = counter
+
+print evalfiz
+
+
+
+
+#	print "%d" %(counter)
+
+# if eval == 0:
+#	print eval
+
 
 
 
