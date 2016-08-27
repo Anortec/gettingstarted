@@ -6,25 +6,27 @@
 #	print theNumber
 #  end if
 
-finaloutput = 0
-evalfiz = 0
+
+
 fizztrue = 0
 buzztrue = 0
 
 for counter in range(1, 100):
 
-	if 3 % counter:
-		fizztrue == 1
 
-	if 5 % counter:
-		buzztrue == 1
+	output = counter
 
-	else:
-		output = counter
+
+	if counter % 3 == 0:
+		output = "Fizz"
+
+	if counter % 5 == 0:
+		output = "Buzz"
+
+	if (counter % 3 == 0 and counter % 5 == 0):
+		output = "FizzBuzz"
 
 	print output
-
-
 
 
 
