@@ -5,7 +5,18 @@ reqamount = float(raw_input("Please enter the amount you would like to be paid? 
 # reqamount = 100
 
 sstotal = reqamount * 0.0145
+sstotal *= 100
+sstotal += 0.5
+sstotal = int(sstotal)
+sstotal /= float(100)
+
+
+
 mctotal = reqamount * 0.062
+mctotal *= 100
+mctotal += 0.5
+mctotal = int(mctotal)
+mctotal /= float(100)
 
 paytotal = reqamount - sstotal - mctotal
 
